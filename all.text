@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 => core module : console, fs, Buffer, HTTP
 => global module : import karane ki jarur nahi padti.
 => Non global module : import karana padta hai.
