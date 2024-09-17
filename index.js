@@ -16,9 +16,14 @@ app.get('/profile', (_, resp) => {
     const user = {
         name: "sahil",
         email: "sahil@gmail.com",
-        city : "Siddhpur"
+        city: "Siddhpur",
+        skills : ['php','js','node']
     }
     resp.render('profile',{user});
+})
+
+app.get('/login', (_, resp) => {
+    resp.render('login');
 })
 
 app.get('/about', (_,resp) => {
